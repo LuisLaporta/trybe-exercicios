@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Java
+CSS
+HTML
+Note.js
+JavaScript
