@@ -1,44 +1,42 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
 
-        h1 {
-            font-size: 65px;
-            color: orange;
-            font-family: sans-serif;
-        }
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
 
-        p {
-            font-weight: 600;
-            font-size: 3em;
-        }
+body {
+    font-size: 16px;
+}
 
-        body {
-            font-size: 16px;
-        }
+ul {
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: line-through;
+}
 
-        ul {
-            font-style: italic;
-            line-height: 30px;
-            text-align: center;
-            text-decoration: line-through;
-        }
+#lista-não-oredenada {
+    background-color: aqua;
+}
 
-        #lista-não-oredenada {
-            background-color: aqua;
-        }
+#ul-branco {
+    background-color: white;
+}
 
-        #ul-branco {
-            background-color: white;
-        }
+#ul-roxo {
+    background-color: purple;
+}
 
-        #ul-roxo {
-            background-color: purple;
-        }
+#ul-preto {
+    background-color: black;
+    color: white;
+}
 
-        #ul-preto {
-            background-color: black;
-            color: white;
-        }
-
-        .paragrafo-lista-cor-de-fundo {
-            background-color: blueviolet;
-        }
-
+.paragrafo-lista-cor-de-fundo {
+    background-color: blueviolet;
+}
