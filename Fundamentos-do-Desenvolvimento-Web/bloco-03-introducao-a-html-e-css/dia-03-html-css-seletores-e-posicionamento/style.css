@@ -1,0 +1,64 @@
+ol {
+  background-color: yellow;
+}
+
+ol li.parverde {
+  color: green;
+}
+
+ol li.imparmaiusculo {
+  text-transform: uppercase;
+}
+
+h1,h3 {
+  color: red;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.treep {
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+ul li:hover {
+  font-weight: bold;
+}
+
+ul li.stack:active {
+  color: orange;
+}
+
+ul li.w3:active {
+  color: green;
+}
+
+ul li.mdn:active {
+  color: black;
+}
+
+ul li.dev:active {
+  color: yellow;
+}
+
+ul li.trybe:active {
+  color: green;
+}
+
+ul li a {
+  text-decoration: none;
+}
