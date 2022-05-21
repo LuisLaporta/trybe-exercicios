@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+
+    <script>
+      function removeChildById(filho) {
+        let remove = document.getElementById(filho);
+        if (remove.parentNode) {
+          remove.parentNode.removeChild(remove);
+        }
+      }
+
+      removeChildById('primeiroFilho');
+      removeChildById('segundoEUltimoFilhoDoFilho');
+      removeChildById('terceiroFilho');
+      removeChildById('quartoEUltimoFilho');
+
+    </script>
+  </main>
+</body>
+</html>

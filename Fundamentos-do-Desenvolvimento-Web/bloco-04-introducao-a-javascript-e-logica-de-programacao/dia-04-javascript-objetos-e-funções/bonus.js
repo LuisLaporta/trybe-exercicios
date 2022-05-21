@@ -30,24 +30,13 @@ const basket = [
   
   const summaries = [];
   for (fruit in result) {
-    let message = `${result[fruit]} ${fruit}`;
+    let message = result[fruit] + " " + fruit;
+    // ou
+    // let message = `${result[fruit]} ${fruit}`;
     if (result[fruit] > 1) message += 's';
     summaries.push(message);
   }
   
-  console.log(`Sua cesta possui: ${summaries.join(', ')}.`);
-
-
-  const objetos = [
-      'faca', 'garfo', 'faca', 'faca', 'colher', 'garfo',
-  ];
-
-  const cesta = {}
-
-  for (let index = 0; index < objetos.length; index += 1) {
-      const talher = objetos.length;
-      if(cesta[talher] != cesta[talher]) {
-        cesta[talher] = 0;
-      }
-      cesta[talher] += 1;
-  }
+  console.log("Sua cesta possuí: " + summaries.join(', ') + ".");
+  // ou
+  // console.log(`Sua cesta possui: ${summaries.join(', ')}.`);
